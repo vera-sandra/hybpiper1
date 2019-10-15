@@ -1,12 +1,13 @@
 **Hybpiper**
 
 
-**Preprocesamiento de muestras##
+**Preprocesamiento de muestras
 
 
 El presente tutorial corresponde al manejo de muestras obtenidas de la técnica de partición de genomas Enriquecimiento Híbrido Anclado  [(AHE)](https://academic.oup.com/sysbio/article/61/5/727/1737120) procesadas en la plataforma de secuenciación de nueva generación  [Illumina HiSeq2500](https://www.illumina.com/systems/sequencing-platforms/hiseq-2500.html).
 
 **Programas requeridos
+
 Antes de comenzar es necesario corroborar que los siguientes programas  se encuentren instalados en  la PC a utilizar  o corroborar que sean soportados para su posterior instalación:
 
 -**[Phython](https://www.python.org/)**
@@ -20,6 +21,7 @@ Antes de comenzar es necesario corroborar que los siguientes programas  se encue
 ___
 
 *Descarga de secuencias*
+
 En general una vez que tus muestras se han secuenciado la empresa envía a tu correo las instrucciones para descargar las secuencias, una por una  o de manera simultánea.
 
 - Ingresa a **putty** y crea un nuevo directorio  (nueva carpeta), puede ser el nombre de tu grupo de trabajo.
