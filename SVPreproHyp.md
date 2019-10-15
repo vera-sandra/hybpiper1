@@ -41,14 +41,17 @@ En este ejemplo la secuenciación fue bidireccional por lo cual se tendrán dos 
 
 -Recuerda que el *forward* (R1) y *reverse* (R2) deben tener el mismo nombre ya que son secuencias complementarias de un mismo individuo. Coloca el nombre de tu archivo tal cual aparece en tu directorio, deja un espacio, y coloca el nuevo nombre de tu secuencia siempre al inicio. 
 
-```mv JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz violaceae_JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz
-``` *forward*
+```
+mv JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz violaceae_JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz
+``` 
+*forward*
 
 
 
 ```
 mv JDUAAKD_S4_2_MYEYSB_CGM1086.fastq.gz violaceae_JDUAAKD_S4_2_MYEYSB_CGM1086.fastq.gz
-``` *reverse*
+```
+*reverse*
 
 
 -Repite para todas tus muestras.
