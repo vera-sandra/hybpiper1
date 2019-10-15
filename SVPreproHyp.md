@@ -1,7 +1,7 @@
-#Hybpiper# 
+#Hybpiper
 
 
-##Preprocesamiento de muestras##
+##Preprocesamiento de muestras
 
 
 El presente tutorial corresponde al manejo de muestras obtenidas de la técnica de partición de genomas Enriquecimiento Híbrido Anclado  [(AHE)](https://academic.oup.com/sysbio/article/61/5/727/1737120) procesadas en la plataforma de secuenciación de nueva generación  [Illumina HiSeq2500](https://www.illumina.com/systems/sequencing-platforms/hiseq-2500.html).
@@ -41,8 +41,7 @@ En este ejemplo la secuenciación fue bidireccional por lo cual se tendrán dos 
 
 -Recuerda que el *forward* (R1) y *reverse* (R2) deben tener el mismo nombre ya que son secuencias complementarias de un mismo individuo. Coloca el nombre de tu archivo tal cual aparece en tu directorio, deja un espacio, y coloca el nuevo nombre de tu secuencia siempre al inicio. 
 
-```
-mv JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz violaceae_JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz
+```mv JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz violaceae_JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz
 ``` *forward*
 
 
