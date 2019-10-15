@@ -1,6 +1,8 @@
 #Hybpiper# 
 
+
 ##Preprocesamiento de muestras##
+
 
 El presente tutorial corresponde al manejo de muestras obtenidas de la técnica de partición de genomas Enriquecimiento Híbrido Anclado  [(AHE)](https://academic.oup.com/sysbio/article/61/5/727/1737120) procesadas en la plataforma de secuenciación de nueva generación  [Illumina HiSeq2500](https://www.illumina.com/systems/sequencing-platforms/hiseq-2500.html).
 
@@ -43,45 +45,57 @@ En este ejemplo la secuenciación fue bidireccional por lo cual se tendrán dos 
 mv JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz violaceae_JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz
 ``` *forward*
 
+
+
 ```
 mv JDUAAKD_S4_2_MYEYSB_CGM1086.fastq.gz violaceae_JDUAAKD_S4_2_MYEYSB_CGM1086.fastq.gz
 ``` *reverse*
 
+
 -Repite para todas tus muestras.
+
 
 ```
 mv HGTAAKD_S4_1_MYEYSB_CGM865.fastq.gz utricula_HGTAAKD_S4_1_MYEYSB_CGM1086.fastq.gz
 ``` 
 
+
 ```
 mv HGTAAKD_S4_2_MYEYSB_CGM865.fastq.gz utricula_HGTAAKD_S4_2_MYEYSB_CGM1086.fastq.gz
 ``` 
 
+
 ```
 mv FGBAAKD_S4_1_MYEYSB_CGM865.fastq.gz ionantha_FGBAAKD_S4_1_MYEYSB_GAS670.fastq.gz
 ```
+
 
 ```
 mv FGBAAKD_S4_2_MYEYSB_GAS670.fastq.gz ionantha_FGBAAKD_S4_2_MYEYSB_GAS670.fastq.gz
 ```
 
 
+
 ```
 mv KAHAAKD_S4_1_MYEYSB_CGM716.fastq.gz makoyana_KAHAAKD_S4_1_MYEYSB_CGM716.fastq.gz
 ```
+
 
 ```
 mv KAHAAKD_S4_2_MYEYSB_CGM716.fastq.gz makoyana_KAHAAKD_S4_2_MYEYSB_CGM716.fastq.gz
 ```
 
 
+
 ```
 mv YJUAAKD_S4_1_MYEYSB_CGM865.fastq.gz recurvat_YJUAAKD_S4_1_MYEYSB_CGM865.fastq.gz
 ```
 
+
 ```
 mv YJUAAKD_S4_2_MYEYSB_CGM865.fastq.gz recurvat_YJUAAKD_S4_2_MYEYSB_CGM865.fastq.gz
 ```
+
 
 ___
 
@@ -106,9 +120,11 @@ java -jar [path to trimmomatic jar] PE [input 1] [input 2] [paired output1] [unp
 
 Ejemplo para el primer individuo
 
+
 ```
 java -jar [path to trimmomatic jar] PE [violaceae_JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz] [violaceae_JDUAAKD_S4_2_MYEYSB_CGM1086.fastq.gz] [paired violaceae_JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz] [unpaired violaceae_JDUAAKD_S4_1_MYEYSB_CGM1086.fastq.gz] [paired violaceae_JDUAAKD_S4_2_MYEYSB_CGM1086.fastq.gz] [unpaired violaceae_JDUAAKD_S4_2_MYEYSB_CGM1086.fastq.gz] LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:30
 ```
+
 
 #####*Descomprime*
 
@@ -119,4 +135,7 @@ java -jar [path to trimmomatic jar] PE [violaceae_JDUAAKD_S4_1_MYEYSB_CGM1086.fa
 
 
 ___
+
+
+
 ¡A partir de aquí ya puedes empezar tu procesamiento!
