@@ -1,2 +1,2 @@
 # hybpiper1
-Preprocesamiento de muestras para hybpiper
+Hola, en este primer repositorio de HybPiper se presenta la primer edición de secuencias procesadas en Ilumina para su posterior análisis.
