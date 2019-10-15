@@ -1,7 +1,7 @@
-#Hybpiper
+#Hybpiper#
 
 
-##Preprocesamiento de muestras
+##Preprocesamiento de muestras##
 
 
 El presente tutorial corresponde al manejo de muestras obtenidas de la técnica de partición de genomas Enriquecimiento Híbrido Anclado  [(AHE)](https://academic.oup.com/sysbio/article/61/5/727/1737120) procesadas en la plataforma de secuenciación de nueva generación  [Illumina HiSeq2500](https://www.illumina.com/systems/sequencing-platforms/hiseq-2500.html).
